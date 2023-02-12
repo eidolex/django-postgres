@@ -12,6 +12,8 @@ services:
       - "db:db"
     env_file:
       - .env
+    ports:
+      - 9000:8000
   db:
     image: postgres:14
     healthcheck:
