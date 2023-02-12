@@ -1,0 +1,11 @@
+__pycache__
+*.py[cdo]
+.venv
+
+staticfiles/*
+!staticfiles/.gitkeep
+media/*
+!media/.gitkeep
+
+data
+.env
